@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <style>
+    
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h1{
+    text-align:center;
+    text-shadow:black;
+}
+h2{
+    text-align: end;
+    color:black;
+}
+h3{
+    text-align:center;
+    color:darkblue
+}
+table,tr,th,td{
+      display:inline-block
+    font-size: large;
+    border:solid black 20px;
+             border-collapse:collapse;
+             padding: 30px;
+            
+             
+}
+p{
+    text-align: end;
+}
+tej{
+    align-items:end;
+}
+
+
+body{
+     margin-top: 0%;
+    background-color:black;
+     background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}    
+
+    </style>
+</head>
+<body>
+    <h1 style="color:black;width: 60;"><marquee width="60%" direction="right" height="100px"><u>SRIRAM KAZA DUMBIRYANI, Kaza, West Godavari</u></marquee></h1>
+    <h1 style="color:darkgoldenrod"><marquee width="60%" direction="left" height="100px">"Wibe your Menu with Music"</marquee></u></h1>
+    <h1 style="color:darkred"><i> <marquee width="60%" direction="bottom" height="100px">!!Be Calm  and add Dum to your Biryani!!!</marquee></i></h1><br>
+  <div>
+    <marquee behaviour="scroll"direction="right"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHj4I4mFisUsAg0BjxXEHIz_0QOYt8MMBUwmeb4AsnvH2NUDZswO8Ft9iMM0FQPse4LXM&usqp=CAU"width="600" height=""600></marquee>
+    <table><h1 style="text-align:left;">Look at the Fab Menu!!</h1>
+    <tr>
+        <th>SNO</th>
+        <th>MENU</th>
+        <th>PRICE</th>
+        <th>RATING</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>BIRYANI
+        <ul>
+            <li>Oil less Dum</li>
+            <li>Chicken Biryani</li>
+            <li>Mutton Biryani</li>
+            <li>CFR</li>
+        </ul>
+        </td>
+        <td>
+            <ul>
+                <li>250</li>
+                <li>200</li>
+                <li>300</li>
+                <li>200</li>
+            </ul>
+        </td>
+        <td>4.5</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ICE CREAMS
+            <ul>
+                <li>Scoops</li>
+                <li>Cones</li>
+                <li>Bournvellis</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li>120</li>
+                <li>60</li>
+                <li>150</li>
+            </ul>
+        </td>
+        <td>4.4</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>VEG
+        <ul>
+            <li>VFR</li>
+            <li>Veg Biryani</li>
+            <li>Veg Pulav</li>
+        </ul>
+        </td>
+        <td>
+            <ul>
+                <li>150</li>
+                <li>160</li>
+                <li>180</li>
+            </ul>
+        </td>
+        <td>4.6</td>
+    </tr>
+</table>
+</div>
+<h3>Wanna order Non Veg Biryani's!Go grab it with the lovely musicc!!</h3>
+    <a href="song1.mp3"> 
+       
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8LkoyQktH8VnM6synCVvyOwl3ugmqpxoOAw&usqp=CAU" width="500"height="400">
+    </a>
+</div>
+<div>
+    <h3>Wanna order Icecreams!!Go grab it with the lovely musicc!!</h3>
+    <a href="song2.mp3">
+       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlDGHnCons1i3tlbQuxjXa7NWaptL8srgQGQ&usqp=CAU"width="500" height="400">
+    </a>
+</div><br>
+<div>
+    <h3>Wanna order Veg!!Go grab it with the lovely musicc!!</h3>
+    <a href="song3.mp3"> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRn39OshYIz1k-GvRO-MQ_8HkxnrVsJlsVBQ&usqp=CAU" height="400"width="500">
+    </a>
+</div><br>
+<div>
+    <h3>Wanna order Dry Items!!Go grab it with the lovely musicc!!</h3>
+    <a href="song4.mp3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4FcbgLeKJQsCaK_XzbhXqripmsqxSQEvWcg&usqp=CAU"width="500"height="400">
+    </a>
+</div><br>
+<div>
+    <h3>Wanna order Snacks!!Go grab it with the lovely musicc!!</h3>
+    <a href="song5.mp3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2W6Xov_zn0ZscIgp28WS6iTIaiWfLzb615w&usqp=CAU"width="500"height="400">
+    </a>
+</div>
+<br>
+<iframe src="https://www.top-rated.online/cities/P%C4%81lakollu/place/p/4048247/Kaza+Biryani+%28Sri+Ram+Palav+Centre%29?r" width="500" height="600"></iframe>
+<iframe align="left"; src="https://www.indiainfo.net/distance/kaza-biryani-sri-ram-palav-centre-6265957" width="400" height="600"></iframe>
+
+</body>
+</html>
